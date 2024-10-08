@@ -1,0 +1,52 @@
+body {
+  font-family: Snell Roundhand ;
+  text-align: center;
+  padding-top: 50px;
+}
+#text {
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.container5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.container6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
