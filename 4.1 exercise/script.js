@@ -1,5 +1,5 @@
 function changeColor(element) {
-  const colors = ['white', 'black'];
+  const colors = ['black', 'white'];
   const randomColor = colors[Math.floor(Math.random() * colors.length)];
   element.style.color = randomColor;
 }
