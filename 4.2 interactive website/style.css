@@ -1,0 +1,56 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+  }
+  
+  .poster-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Styling for dynamically added split text */
+  .lyrics-container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #lyrics-line span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(50px);
+    color: #f5f5f5;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    animation: fadeInUp 1s ease forwards;
+  }
+  
+  /* Keyframes for the animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
